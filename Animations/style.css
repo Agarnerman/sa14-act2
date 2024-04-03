@@ -1,0 +1,18 @@
+#movable-div {
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#movable-div.animated {
+    animation: move 2s ease-in-out infinite;
+}
+
+@keyframes move {
+    0% { left: 0; }
+    100% { left: 100%; }
+}
