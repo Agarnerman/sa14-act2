@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.todo-item {
+    margin-bottom: 10px;
+}
+.todo-item input[type="text"] {
+    width: 200px;
+}
+.edit-form {
+    display: none;
+}
